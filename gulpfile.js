@@ -14,12 +14,12 @@ var dest = {
 }
 
 // plugins.min.css
-var bowerCss = ['bower_components/bootstrap/dist/css/bootstrap.min.css'];
+var bowerCss = ['node_modules/bootstrap/dist/css/bootstrap.min.css'];
 
 // plugins.min.js
-var bowerJs = ['bower_components/jquery/dist/jquery.min.js',
-               'bower_components/jquery-ui/jquery-ui.js',
-               'bower_components/bootstrap/dist/js/bootstrap.min.js'
+var bowerJs = ['node_modules/jquery/dist/jquery.min.js',
+               'node_modules/jquery-ui/jquery-ui.js',
+               'node_modules/bootstrap/dist/js/bootstrap.min.js'
                ];
 
  gulp.task('serve', ['less'], function() {
